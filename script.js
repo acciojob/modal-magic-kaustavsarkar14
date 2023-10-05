@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const modal = document.getElementById('modal')
-const open = document.getElementById('open')
+const open = document.getElementById('openModal')
 function handleClick(){
 	modal.style.display = "block"
 }
