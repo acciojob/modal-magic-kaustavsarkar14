@@ -7,7 +7,7 @@ function handleClick(){
 function handleClose(){
 	modal.style.display = "none"
 }
-document.addEventListener('click',(e)=>{
+window.addEventListener('click',(e)=>{
 	if(e.target !== open && !modal.contains(e.target)){
 	handleClose()
 	}
