@@ -7,6 +7,12 @@ function handleClick(){
 function handleClose(){
 	modal.style.display = "none"
 }
+// window.addEventListener("click", function(event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// });
+
 window.addEventListener('click',(e)=>{
 	if(e.target !== open && !modal.contains(e.target)){
 	handleClose()
